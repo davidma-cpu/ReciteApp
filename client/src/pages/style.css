@@ -1,0 +1,60 @@
+.styleHomePage{
+    background:white;
+    color:darkgreen;
+    border-radius:5px;
+    border:2px solid green;
+    padding:30px;
+    margin-top:5%;
+}
+
+.stylePgLink{
+margin:20px;
+text-align:center;
+text-decoration: underline overline;
+font-size: 20px;
+color:brown;
+}
+
+.styleRecipeSelect {
+    margin-top: 5%;
+    /* background-color: white; */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.playBtn {
+    float: right;
+    
+    border-radius: 5px;
+    padding: 10px;
+    padding-left:40px;
+    padding-right:40px;
+}
+.StyleThumbnail{
+    border:1px solid grey;
+    border-radius:2px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .StyleThumbnail{
+        margin-left:-20px;
+        margin-top:10px;
+        margin-bottom:15px;
+    }
+
+    .StyleAuthor{
+        position:relative;
+        left:30%;
+    }
+
+    .styleplayBtn{
+        float:left;
+        margin-left:20px;
+
+    }
+     
+};

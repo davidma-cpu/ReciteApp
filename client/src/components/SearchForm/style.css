@@ -1,0 +1,43 @@
+.styleSearch{
+    width: 100%;
+    margin-top:20px;
+    padding:0px;
+}
+
+.styleSearch input{
+    width: 80%;
+    height: 52px;
+    border-radius:5px;
+    /* border: 3px solid lightgoldenrodyellow; */
+}
+
+.fa-search{
+    margin-left:-2px;
+    font-size:35px;
+    background:transparent;
+    color:green;
+}
+.searchBtn{
+    background-color:lightgoldenrodyellow;
+}
+
+@media only screen and (max-width: 640px) {
+    .styleSearch{
+        width: 100%;
+        margin-top:20px;
+    }
+    
+    .styleSearch input{
+        width: 80%;
+        height: 40px;
+        border-radius:5px;
+    }
+
+    .fa-search{
+    margin-left:-2px;
+    font-size:25px;
+    background:lightgoldenrodyellow;
+    color:green;
+}
+  
+  };
